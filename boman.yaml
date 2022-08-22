@@ -1,6 +1,6 @@
 Auth:
-  project_token: "0166cd01-9f02-4e75-a59f-faf031b9a529"
-  customer_token: "8587089c-48f7-4061-bcc7-30a7b76f2f57"
+  project_token: "d072bfcf-d7f5-40dd-9c87-8e64b0c21d14"
+  customer_token: "de2c7d37-c3fb-42c4-86a2-8fb8c77e9664"
 
 SAST:
  language: "ruby"
