@@ -7,8 +7,8 @@ SAST:
  # work_dir: "/home/boxuser/box/repo/django.nV/"
 # target: "commons-fileupload-1.1.jar"
 
-SCA:
- language: "js"
+# SCA:
+#  language: "js"
 #  work_dir: /
 
 Secret_Scan: True
