@@ -1,0 +1,15 @@
+applications:
+- api_domain: demo.testfire.net
+  application_name: aswapp1ddfd
+  authentication_key: password
+  authentication_mode: selenium
+  authentication_value: ${{ jit_secrets.web_scan_authentication_value }}
+  exclude_paths: []
+  login_page_url: https://demo.testfire.net/login.jsp
+  password: encrypted$AQICAHiKRGWn+EHruY/484rO7pJxzFGc/JSwAlIzIzxLWzk4OwGskaDIaksK1nhrdaWKos92AAAAYzBhBgkqhkiG9w0BBwagVDBSAgEAME0GCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQM9ZzvFKuUx2BbaZbtAgEQgCBHw3NJUV7SL23qxLrKQxvZNyqOSf5UCbX/OHvv0MSbFQ==
+  password_css_selector: ''
+  password_ref: ${{ jit_secrets.web_scan_password }}
+  target_url: https://demo.testfire.net
+  type: web
+  username: admin
+  username_css_selector: ''
