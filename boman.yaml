@@ -2,7 +2,7 @@ Auth:
   project_token: ef78fe93-670a-44cf-8b64-7ee967d7d53e
   customer_token: 4941f85a-5453-4f94-9247-d5565b4bd116
 SAST:
-  language: ruby
+  language: semgrep
 SCA:
   language: ruby
 Secret_Scan: true
