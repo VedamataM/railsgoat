@@ -5,4 +5,4 @@ SCA:
   language: ruby
 container_scan:
   type: image
-  target: memcached:1.6.29-alpine3.20
+  target: memcached:latest
