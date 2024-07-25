@@ -5,4 +5,4 @@ SCA:
   language: ruby
 container_scan:
   type: image
-  target: memcached:1-alpine
+  target: memcached:bookworm
