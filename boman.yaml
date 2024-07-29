@@ -4,4 +4,5 @@ Auth:
 SCA:
   language: ruby
 container_scan:
-  type: config
+  type: image
+  target: memcached:latest
