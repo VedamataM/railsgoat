@@ -4,5 +4,4 @@ Auth:
 SCA:
   language: ruby
 container_scan:
-  type: image
-  target: memcached:bookworm
+  type: config
