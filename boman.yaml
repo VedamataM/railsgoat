@@ -6,6 +6,6 @@ SAST:
 SCA:
   language: ruby
 Secret_Scan: true
-Container_Scan:
+container_scan:
   type: config
   target: ''
