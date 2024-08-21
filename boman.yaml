@@ -4,3 +4,5 @@ Auth:
 SAST:
   language: semgrep
 IAC: true
+container_scan:
+  type: config
