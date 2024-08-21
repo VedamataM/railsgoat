@@ -1,7 +1,6 @@
 Auth:
-  project_token: 643c0249-00db-4747-9d7b-6981e3282ec3
-  customer_token: 41bb9111-e57f-43d9-aa15-8c2e751ddb36
-container_scan:
-  type: config
-  target: ''
-SBOM: true
+  project_token: e791202f-6435-456e-b8a9-06b4cfcb114f
+  customer_token: 5b2f4dbd-a873-4042-8441-ff38fef71ed5
+SAST:
+  language: semgrep
+IAC: true
