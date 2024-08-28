@@ -3,6 +3,7 @@ Auth:
   customer_token: 5b2f4dbd-a873-4042-8441-ff38fef71ed5
 SAST:
   language: semgrep
-IAC: true
+IAC:
+  target: /openshift-configs
 container_scan:
   type: config
