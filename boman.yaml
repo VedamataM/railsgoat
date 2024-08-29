@@ -1,9 +1,15 @@
 Auth:
-  project_token: e791202f-6435-456e-b8a9-06b4cfcb114f
-  customer_token: 5b2f4dbd-a873-4042-8441-ff38fef71ed5
+  project_token: 05af5627-00f6-470b-95f9-b5d4dbbf8a75
+  customer_token: 1d747e85-40c3-4e2c-98ff-6af0ed1a721f
 SAST:
   language: semgrep
-IAC:
-  target: /openshift-configs
+DAST:
+  type: WEB
+  URL: 'https://demo.testfire.net'
+SCA:
+  language: ruby
+Secret_Scan: true
 container_scan:
   type: config
+  target: ''
+IAC: true
