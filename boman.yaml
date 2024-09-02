@@ -1,6 +1,6 @@
 Auth:
-  project_token: e367494a-a1bb-466c-a3c4-ebe0498eb9fb
-  customer_token: 1d747e85-40c3-4e2c-98ff-6af0ed1a721f
+  project_token: 643c0249-00db-4747-9d7b-6981e3282ec3
+  customer_token: 41bb9111-e57f-43d9-aa15-8c2e751ddb36
 SAST:
   language: semgrep
 DAST:
@@ -9,3 +9,8 @@ DAST:
 SCA:
   language: ruby
 Secret_Scan: true
+container_scan:
+  type: config
+  target: ''
+SBOM: true
+IAC: true
